@@ -6,6 +6,8 @@ r2 = n1-n2
 r3 = n1*n2
 r4 = n1/n2
 r5 = n1%n2
+
+
 print("add",r1)
 print("sub",r2)
 print("mul",r3)
