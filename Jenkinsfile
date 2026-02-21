@@ -11,19 +11,19 @@ pipeline {
 
     stage('Compile') {
       steps {
-        sh 'javac Calculator.java'
+        sh 'javac calculator.java'
       }
     }
 
     stage('Build') {
       steps {
-        sh 'java Calculator 25 5'
+        sh 'java calculator 25 5'
       }
     }
 
     stage('Test') {
       steps {
-        sh 'java Calculator 30 -5'
+        sh 'java calculator 30 -5'
       }
     }
 
